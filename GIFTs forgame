@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Gifts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #28A745;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .feature {
+            background-color: #f8f9fa;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            padding: 20px;
+            width: 30%;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gaming Gifts</h1>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero" id="hero">
+        <h2>Find the Perfect Gift for Gamers</h2>
+        <p>Explore our collection of the best gaming gifts available!</p>
+    </section>
+    <section class="features" id="features">
+        <div class="feature">
+            <h3>Gift Cards</h3>
+            <p>Give the gift of choice with our digital gift cards.</p>
+        </div>
+        <div class="feature">
+            <h3>Gamer Gear</h3>
+            <p>Check out our exclusive gaming accessories.</p>
+        </div>
+        <div class="feature">
+            <h3>Merchandise</h3>
+            <p>Shop for the latest gaming merchandise and collectibles.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Gaming Gifts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
